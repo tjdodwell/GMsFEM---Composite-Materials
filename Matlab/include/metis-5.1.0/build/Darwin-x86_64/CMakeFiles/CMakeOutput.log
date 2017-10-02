@@ -1,0 +1,247 @@
+The system is: Darwin - 12.5.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/3.0.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicxx 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec896841554/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec896841554.dir/build.make CMakeFiles/cmTryCompileExec896841554.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec896841554.dir/testCCompiler.c.o
+/opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicc    -o CMakeFiles/cmTryCompileExec896841554.dir/testCCompiler.c.o   -c /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec896841554
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec896841554.dir/link.txt --verbose=1
+/opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec896841554.dir/testCCompiler.c.o  -o cmTryCompileExec896841554  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2900675651/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2900675651.dir/build.make CMakeFiles/cmTryCompileExec2900675651.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2900675651.dir/CMakeCCompilerABI.c.o
+/opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicc    -o CMakeFiles/cmTryCompileExec2900675651.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2900675651
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2900675651.dir/link.txt --verbose=1
+/opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec2900675651.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2900675651   
+clang version 3.3 (https://github.com/clang-omp/clang 8c0c196df7070617d9aef862a3731a147155b595) (https://github.com/clang-omp/llvm 2451bcb58b76866f4350145a34f446c295321f58)
+Target: x86_64-apple-darwin12.5.0
+Thread model: posix
+ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -o cmTryCompileExec2900675651 -L/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2900675651.dir/CMakeCCompilerABI.c.o -lmpi -lm -L/opt/moose/openmp/lib -L/opt/moose/tbb/lib -lSystem /opt/moose/clang/bin/../lib/clang/3.3/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-236.3
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 armv6m armv7m armv7em
+Library search paths:
+	/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib
+	/opt/moose/openmp/lib
+	/opt/moose/tbb/lib
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2900675651/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2900675651.dir/build.make CMakeFiles/cmTryCompileExec2900675651.dir/build]
+  ignore line: [/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2900675651.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicc    -o CMakeFiles/cmTryCompileExec2900675651.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2900675651]
+  ignore line: [/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2900675651.dir/link.txt --verbose=1]
+  ignore line: [/opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec2900675651.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2900675651   ]
+  ignore line: [clang version 3.3 (https://github.com/clang-omp/clang 8c0c196df7070617d9aef862a3731a147155b595) (https://github.com/clang-omp/llvm 2451bcb58b76866f4350145a34f446c295321f58)]
+  ignore line: [Target: x86_64-apple-darwin12.5.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -o cmTryCompileExec2900675651 -L/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2900675651.dir/CMakeCCompilerABI.c.o -lmpi -lm -L/opt/moose/openmp/lib -L/opt/moose/tbb/lib -lSystem /opt/moose/clang/bin/../lib/clang/3.3/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.8.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2900675651] ==> ignore
+    arg [-L/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib] ==> dir [/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2900675651.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lm] ==> lib [m]
+    arg [-L/opt/moose/openmp/lib] ==> dir [/opt/moose/openmp/lib]
+    arg [-L/opt/moose/tbb/lib] ==> dir [/opt/moose/tbb/lib]
+    arg [-lSystem] ==> lib [System]
+    arg [/opt/moose/clang/bin/../lib/clang/3.3/lib/darwin/libclang_rt.osx.a] ==> lib [/opt/moose/clang/bin/../lib/clang/3.3/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib;/opt/moose/openmp/lib;/opt/moose/tbb/lib;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/opt/moose/clang/bin/../lib/clang/3.3/lib/darwin/libclang_rt.osx.a] ==> [/opt/moose/clang/lib/clang/3.3/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib] ==> [/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib]
+  collapse library dir [/opt/moose/openmp/lib] ==> [/opt/moose/openmp/lib]
+  collapse library dir [/opt/moose/tbb/lib] ==> [/opt/moose/tbb/lib]
+  collapse library dir [/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib] ==> [/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib]
+  collapse library dir [/opt/moose/openmp/lib] ==> [/opt/moose/openmp/lib]
+  collapse library dir [/opt/moose/tbb/lib] ==> [/opt/moose/tbb/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [mpi;m;/opt/moose/clang/lib/clang/3.3/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib;/opt/moose/openmp/lib;/opt/moose/tbb/lib;/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1902758426/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1902758426.dir/build.make CMakeFiles/cmTryCompileExec1902758426.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1902758426.dir/testCXXCompiler.cxx.o
+/opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicxx     -o CMakeFiles/cmTryCompileExec1902758426.dir/testCXXCompiler.cxx.o -c /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1902758426
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1902758426.dir/link.txt --verbose=1
+/opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicxx     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1902758426.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1902758426  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3708998614/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3708998614.dir/build.make CMakeFiles/cmTryCompileExec3708998614.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3708998614.dir/CMakeCXXCompilerABI.cpp.o
+/opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicxx     -o CMakeFiles/cmTryCompileExec3708998614.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3708998614
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3708998614.dir/link.txt --verbose=1
+/opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicxx     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec3708998614.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3708998614   
+clang version 3.3 (https://github.com/clang-omp/clang 8c0c196df7070617d9aef862a3731a147155b595) (https://github.com/clang-omp/llvm 2451bcb58b76866f4350145a34f446c295321f58)
+Target: x86_64-apple-darwin12.5.0
+Thread model: posix
+ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -o cmTryCompileExec3708998614 -L/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3708998614.dir/CMakeCXXCompilerABI.cpp.o -lmpi_cxx -lmpi -lm -L/opt/moose/openmp/lib -L/opt/moose/tbb/lib -lstdc++ -lSystem /opt/moose/clang/bin/../lib/clang/3.3/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-236.3
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 armv6m armv7m armv7em
+Library search paths:
+	/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib
+	/opt/moose/openmp/lib
+	/opt/moose/tbb/lib
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3708998614/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3708998614.dir/build.make CMakeFiles/cmTryCompileExec3708998614.dir/build]
+  ignore line: [/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3708998614.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicxx     -o CMakeFiles/cmTryCompileExec3708998614.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3708998614]
+  ignore line: [/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3708998614.dir/link.txt --verbose=1]
+  ignore line: [/opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicxx     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec3708998614.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3708998614   ]
+  ignore line: [clang version 3.3 (https://github.com/clang-omp/clang 8c0c196df7070617d9aef862a3731a147155b595) (https://github.com/clang-omp/llvm 2451bcb58b76866f4350145a34f446c295321f58)]
+  ignore line: [Target: x86_64-apple-darwin12.5.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -o cmTryCompileExec3708998614 -L/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3708998614.dir/CMakeCXXCompilerABI.cpp.o -lmpi_cxx -lmpi -lm -L/opt/moose/openmp/lib -L/opt/moose/tbb/lib -lstdc++ -lSystem /opt/moose/clang/bin/../lib/clang/3.3/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.8.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3708998614] ==> ignore
+    arg [-L/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib] ==> dir [/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3708998614.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lmpi_cxx] ==> lib [mpi_cxx]
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lm] ==> lib [m]
+    arg [-L/opt/moose/openmp/lib] ==> dir [/opt/moose/openmp/lib]
+    arg [-L/opt/moose/tbb/lib] ==> dir [/opt/moose/tbb/lib]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lSystem] ==> lib [System]
+    arg [/opt/moose/clang/bin/../lib/clang/3.3/lib/darwin/libclang_rt.osx.a] ==> lib [/opt/moose/clang/bin/../lib/clang/3.3/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib;/opt/moose/openmp/lib;/opt/moose/tbb/lib;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/opt/moose/clang/bin/../lib/clang/3.3/lib/darwin/libclang_rt.osx.a] ==> [/opt/moose/clang/lib/clang/3.3/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib] ==> [/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib]
+  collapse library dir [/opt/moose/openmp/lib] ==> [/opt/moose/openmp/lib]
+  collapse library dir [/opt/moose/tbb/lib] ==> [/opt/moose/tbb/lib]
+  collapse library dir [/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib] ==> [/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib]
+  collapse library dir [/opt/moose/openmp/lib] ==> [/opt/moose/openmp/lib]
+  collapse library dir [/opt/moose/tbb/lib] ==> [/opt/moose/tbb/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [mpi_cxx;mpi;m;stdc++;/opt/moose/clang/lib/clang/3.3/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/opt/moose/openmpi/openmpi-1.6.5/clang-opt/lib;/opt/moose/openmp/lib;/opt/moose/tbb/lib;/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1428230119/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1428230119.dir/build.make CMakeFiles/cmTryCompileExec1428230119.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1428230119.dir/CheckIncludeFile.c.o
+/opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicc    -o CMakeFiles/cmTryCompileExec1428230119.dir/CheckIncludeFile.c.o   -c /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1428230119
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1428230119.dir/link.txt --verbose=1
+/opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1428230119.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1428230119  
+
+
+Determining if the function getline exists passed with the following output:
+Change Dir: /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec37578791/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec37578791.dir/build.make CMakeFiles/cmTryCompileExec37578791.dir/build
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_progress_report /Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec37578791.dir/CheckFunctionExists.c.o
+/opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicc   -DCHECK_FUNCTION_EXISTS=getline   -o CMakeFiles/cmTryCompileExec37578791.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.0.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec37578791
+/usr/local/Cellar/cmake/3.0.2/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec37578791.dir/link.txt --verbose=1
+/opt/moose/openmpi/openmpi-1.6.5/clang-opt/bin/mpicc   -DCHECK_FUNCTION_EXISTS=getline -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec37578791.dir/CheckFunctionExists.c.o  -o cmTryCompileExec37578791  
+
+

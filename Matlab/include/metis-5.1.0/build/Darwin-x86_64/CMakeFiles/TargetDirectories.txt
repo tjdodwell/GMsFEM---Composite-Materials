@@ -1,0 +1,7 @@
+/Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/programs/CMakeFiles/cmpfillin.dir
+/Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/programs/CMakeFiles/gpmetis.dir
+/Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/programs/CMakeFiles/graphchk.dir
+/Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/programs/CMakeFiles/m2gmetis.dir
+/Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/libmetis/CMakeFiles/metis.dir
+/Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/programs/CMakeFiles/mpmetis.dir
+/Users/tjd20/Downloads/metis-5.1.0/build/Darwin-x86_64/programs/CMakeFiles/ndmetis.dir
