@@ -1,10 +1,12 @@
-% need to hand code rigid body modes
 
 %  == Code Visualisation of Partition of Unity
 clear all;
 addpath('include/metis-5.1.0/metismex/');
 addpath('include/postProcessing/');
-addpath('inhull/');
+addpath('include/preProcessing/');
+addpath('include/inhull/');
+addpath('include/FEM/');
+addpath('meshs/');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                        Model Setup 
